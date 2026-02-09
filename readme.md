@@ -1,14 +1,2 @@
-User 1 says hello
-
-Read this very carefully
-
-
-
-university
-
-Nottingham
-
-of
-
-User 1 says Hello!
+The content of this file has been deleted by the owner for privacy reasons.
 
