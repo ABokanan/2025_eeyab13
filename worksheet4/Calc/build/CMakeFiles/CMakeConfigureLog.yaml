@@ -73,7 +73,7 @@ events:
       The output was:
       0
       MSBuild version 18.0.5+e22287bf1 for .NET Framework
-      Build started 2/10/2026 3:05:13 PM.
+      Build started 2/10/2026 4:14:17 PM.
       
       Project "C:\\Users\\ahmad\\2025_eeyab13\\worksheet4\\Calc\\build\\CMakeFiles\\4.2.3\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
       PrepareForBuild:
@@ -102,7 +102,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:00.64
+      Time Elapsed 00:00:00.67
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -612,7 +612,7 @@ events:
       The output was:
       0
       MSBuild version 18.0.5+e22287bf1 for .NET Framework
-      Build started 2/10/2026 3:05:13 PM.
+      Build started 2/10/2026 4:14:18 PM.
       
       Project "C:\\Users\\ahmad\\2025_eeyab13\\worksheet4\\Calc\\build\\CMakeFiles\\4.2.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
       PrepareForBuild:
@@ -641,7 +641,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:00.47
+      Time Elapsed 00:00:00.48
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -951,8 +951,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/ahmad/2025_eeyab13/worksheet4/Calc/build/CMakeFiles/CMakeScratch/TryCompile-8v1huc"
-      binary: "C:/Users/ahmad/2025_eeyab13/worksheet4/Calc/build/CMakeFiles/CMakeScratch/TryCompile-8v1huc"
+      source: "C:/Users/ahmad/2025_eeyab13/worksheet4/Calc/build/CMakeFiles/CMakeScratch/TryCompile-gngp3v"
+      binary: "C:/Users/ahmad/2025_eeyab13/worksheet4/Calc/build/CMakeFiles/CMakeScratch/TryCompile-gngp3v"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -961,39 +961,39 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/ahmad/2025_eeyab13/worksheet4/Calc/build/CMakeFiles/CMakeScratch/TryCompile-8v1huc'
+        Change Dir: 'C:/Users/ahmad/2025_eeyab13/worksheet4/Calc/build/CMakeFiles/CMakeScratch/TryCompile-gngp3v'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_668fe.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_feade.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
         MSBuild version 18.0.5+e22287bf1 for .NET Framework
-        Build started 2/10/2026 3:05:14 PM.
+        Build started 2/10/2026 4:14:19 PM.
         
-        Project "C:\\Users\\ahmad\\2025_eeyab13\\worksheet4\\Calc\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8v1huc\\cmTC_668fe.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\ahmad\\2025_eeyab13\\worksheet4\\Calc\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gngp3v\\cmTC_feade.vcxproj" on node 1 (default targets).
         PrepareForBuild:
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\ahmad\\2025_eeyab13\\worksheet4\\Calc\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8v1huc\\Debug\\".
-          Creating directory "cmTC_668fe.dir\\Debug\\cmTC_668fe.tlog\\".
+          Creating directory "C:\\Users\\ahmad\\2025_eeyab13\\worksheet4\\Calc\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gngp3v\\Debug\\".
+          Creating directory "cmTC_feade.dir\\Debug\\cmTC_feade.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_668fe.dir\\Debug\\cmTC_668fe.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_668fe.dir\\Debug\\cmTC_668fe.tlog\\unsuccessfulbuild".
+          Creating "cmTC_feade.dir\\Debug\\cmTC_feade.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_feade.dir\\Debug\\cmTC_feade.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_668fe.dir\\Debug\\\\" /Fd"cmTC_668fe.dir\\Debug\\vc145.pdb" /external:W3 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_feade.dir\\Debug\\\\" /Fd"cmTC_feade.dir\\Debug\\vc145.pdb" /external:W3 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35723 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_668fe.dir\\Debug\\\\" /Fd"cmTC_668fe.dir\\Debug\\vc145.pdb" /external:W3 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_feade.dir\\Debug\\\\" /Fd"cmTC_feade.dir\\Debug\\vc145.pdb" /external:W3 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
           CMakeCCompilerABI.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\ahmad\\2025_eeyab13\\worksheet4\\Calc\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8v1huc\\Debug\\cmTC_668fe.exe" /INCREMENTAL /ILK:"cmTC_668fe.dir\\Debug\\cmTC_668fe.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/ahmad/2025_eeyab13/worksheet4/Calc/build/CMakeFiles/CMakeScratch/TryCompile-8v1huc/Debug/cmTC_668fe.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/ahmad/2025_eeyab13/worksheet4/Calc/build/CMakeFiles/CMakeScratch/TryCompile-8v1huc/Debug/cmTC_668fe.lib" /MACHINE:X64  /machine:x64 cmTC_668fe.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_668fe.vcxproj -> C:\\Users\\ahmad\\2025_eeyab13\\worksheet4\\Calc\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8v1huc\\Debug\\cmTC_668fe.exe
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\ahmad\\2025_eeyab13\\worksheet4\\Calc\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gngp3v\\Debug\\cmTC_feade.exe" /INCREMENTAL /ILK:"cmTC_feade.dir\\Debug\\cmTC_feade.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/ahmad/2025_eeyab13/worksheet4/Calc/build/CMakeFiles/CMakeScratch/TryCompile-gngp3v/Debug/cmTC_feade.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/ahmad/2025_eeyab13/worksheet4/Calc/build/CMakeFiles/CMakeScratch/TryCompile-gngp3v/Debug/cmTC_feade.lib" /MACHINE:X64  /machine:x64 cmTC_feade.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_feade.vcxproj -> C:\\Users\\ahmad\\2025_eeyab13\\worksheet4\\Calc\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gngp3v\\Debug\\cmTC_feade.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_668fe.dir\\Debug\\cmTC_668fe.tlog\\unsuccessfulbuild".
-          Touching "cmTC_668fe.dir\\Debug\\cmTC_668fe.tlog\\cmTC_668fe.lastbuildstate".
-        Done Building Project "C:\\Users\\ahmad\\2025_eeyab13\\worksheet4\\Calc\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8v1huc\\cmTC_668fe.vcxproj" (default targets).
+          Deleting file "cmTC_feade.dir\\Debug\\cmTC_feade.tlog\\unsuccessfulbuild".
+          Touching "cmTC_feade.dir\\Debug\\cmTC_feade.tlog\\cmTC_feade.lastbuildstate".
+        Done Building Project "C:\\Users\\ahmad\\2025_eeyab13\\worksheet4\\Calc\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gngp3v\\cmTC_feade.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.47
+        Time Elapsed 00:00:00.45
         
       exitCode: 0
   -
@@ -1033,8 +1033,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/ahmad/2025_eeyab13/worksheet4/Calc/build/CMakeFiles/CMakeScratch/TryCompile-4qsqrd"
-      binary: "C:/Users/ahmad/2025_eeyab13/worksheet4/Calc/build/CMakeFiles/CMakeScratch/TryCompile-4qsqrd"
+      source: "C:/Users/ahmad/2025_eeyab13/worksheet4/Calc/build/CMakeFiles/CMakeScratch/TryCompile-i06oqi"
+      binary: "C:/Users/ahmad/2025_eeyab13/worksheet4/Calc/build/CMakeFiles/CMakeScratch/TryCompile-i06oqi"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -1044,39 +1044,39 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/ahmad/2025_eeyab13/worksheet4/Calc/build/CMakeFiles/CMakeScratch/TryCompile-4qsqrd'
+        Change Dir: 'C:/Users/ahmad/2025_eeyab13/worksheet4/Calc/build/CMakeFiles/CMakeScratch/TryCompile-i06oqi'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_89472.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_ea1e0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
         MSBuild version 18.0.5+e22287bf1 for .NET Framework
-        Build started 2/10/2026 3:05:15 PM.
+        Build started 2/10/2026 4:14:20 PM.
         
-        Project "C:\\Users\\ahmad\\2025_eeyab13\\worksheet4\\Calc\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4qsqrd\\cmTC_89472.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\ahmad\\2025_eeyab13\\worksheet4\\Calc\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i06oqi\\cmTC_ea1e0.vcxproj" on node 1 (default targets).
         PrepareForBuild:
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\ahmad\\2025_eeyab13\\worksheet4\\Calc\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4qsqrd\\Debug\\".
-          Creating directory "cmTC_89472.dir\\Debug\\cmTC_89472.tlog\\".
+          Creating directory "C:\\Users\\ahmad\\2025_eeyab13\\worksheet4\\Calc\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i06oqi\\Debug\\".
+          Creating directory "cmTC_ea1e0.dir\\Debug\\cmTC_ea1e0.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_89472.dir\\Debug\\cmTC_89472.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_89472.dir\\Debug\\cmTC_89472.tlog\\unsuccessfulbuild".
+          Creating "cmTC_ea1e0.dir\\Debug\\cmTC_ea1e0.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_ea1e0.dir\\Debug\\cmTC_ea1e0.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_89472.dir\\Debug\\\\" /Fd"cmTC_89472.dir\\Debug\\vc145.pdb" /external:W3 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_ea1e0.dir\\Debug\\\\" /Fd"cmTC_ea1e0.dir\\Debug\\vc145.pdb" /external:W3 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35723 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_89472.dir\\Debug\\\\" /Fd"cmTC_89472.dir\\Debug\\vc145.pdb" /external:W3 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_ea1e0.dir\\Debug\\\\" /Fd"cmTC_ea1e0.dir\\Debug\\vc145.pdb" /external:W3 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\ahmad\\2025_eeyab13\\worksheet4\\Calc\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4qsqrd\\Debug\\cmTC_89472.exe" /INCREMENTAL /ILK:"cmTC_89472.dir\\Debug\\cmTC_89472.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/ahmad/2025_eeyab13/worksheet4/Calc/build/CMakeFiles/CMakeScratch/TryCompile-4qsqrd/Debug/cmTC_89472.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/ahmad/2025_eeyab13/worksheet4/Calc/build/CMakeFiles/CMakeScratch/TryCompile-4qsqrd/Debug/cmTC_89472.lib" /MACHINE:X64  /machine:x64 cmTC_89472.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_89472.vcxproj -> C:\\Users\\ahmad\\2025_eeyab13\\worksheet4\\Calc\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4qsqrd\\Debug\\cmTC_89472.exe
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\ahmad\\2025_eeyab13\\worksheet4\\Calc\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i06oqi\\Debug\\cmTC_ea1e0.exe" /INCREMENTAL /ILK:"cmTC_ea1e0.dir\\Debug\\cmTC_ea1e0.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/ahmad/2025_eeyab13/worksheet4/Calc/build/CMakeFiles/CMakeScratch/TryCompile-i06oqi/Debug/cmTC_ea1e0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/ahmad/2025_eeyab13/worksheet4/Calc/build/CMakeFiles/CMakeScratch/TryCompile-i06oqi/Debug/cmTC_ea1e0.lib" /MACHINE:X64  /machine:x64 cmTC_ea1e0.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_ea1e0.vcxproj -> C:\\Users\\ahmad\\2025_eeyab13\\worksheet4\\Calc\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i06oqi\\Debug\\cmTC_ea1e0.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_89472.dir\\Debug\\cmTC_89472.tlog\\unsuccessfulbuild".
-          Touching "cmTC_89472.dir\\Debug\\cmTC_89472.tlog\\cmTC_89472.lastbuildstate".
-        Done Building Project "C:\\Users\\ahmad\\2025_eeyab13\\worksheet4\\Calc\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4qsqrd\\cmTC_89472.vcxproj" (default targets).
+          Deleting file "cmTC_ea1e0.dir\\Debug\\cmTC_ea1e0.tlog\\unsuccessfulbuild".
+          Touching "cmTC_ea1e0.dir\\Debug\\cmTC_ea1e0.tlog\\cmTC_ea1e0.lastbuildstate".
+        Done Building Project "C:\\Users\\ahmad\\2025_eeyab13\\worksheet4\\Calc\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i06oqi\\cmTC_ea1e0.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.45
+        Time Elapsed 00:00:00.46
         
       exitCode: 0
   -
