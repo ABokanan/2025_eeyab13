@@ -1,0 +1,32 @@
+name: doxygen-deploy
+
+on:
+  push:
+    branches: [master]  # Note: Change 'master' to 'main' if your branch is named main
+
+jobs:
+  deploy-worksheet5:
+    runs-on: ubuntu-latest
+    
+    steps:
+      # Step 1: Check out your code
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      # Step 2: Install Doxygen
+      - name: Install doxygen
+        run: sudo apt-get install -y doxygen
+
+      # Step 3: Run Doxygen
+      # The worksheet specifies the working directory is "Worksheet5" [cite: 366]
+      - name: Run Doxygen
+        working-directory: ${{github.workspace}}/worksheet5
+        run: doxygen
+
+      # Step 4: Deploy the HTML output
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@v4.2.5
+        with:
+          branch: gh-pages
+          # The worksheet specifies the folder is "Worksheet5/html" [cite: 377]
+          folder: ${{github.workspace}}/worksheet5/html
