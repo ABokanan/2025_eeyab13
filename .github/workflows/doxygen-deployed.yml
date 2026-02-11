@@ -1,40 +1,32 @@
-#doxygen-deployed.yml
 name: doxygen-deploy
 
 on:
-     push:
-              branches:  [ master ]     #Note: this needs to be set to your defualt branch
-#name (this might be "main" rather than "master")
-
+  push:
+    branches: [master]  # Note: Change 'master' to 'main' if your branch is named main
 
 jobs:
-#The job that will build worksheet 5
-deploy-worksheet5:
+  deploy-worksheet5:
+    runs-on: ubuntu-latest
+    
+    steps:
+      # Step 1: Check out your code
+      - name: Checkout
+        uses: actions/checkout@v2
 
-#Defines the operating system for the virtual computer
-runs-on: ubuntu-latest
+      # Step 2: Install Doxygen
+      - name: Install doxygen
+        run: sudo apt-get install -y doxygen
 
-#A list of steps to follow to complete the build 
-# (a list of commands to execute on the virtual computer)
-steps:
+      # Step 3: Run Doxygen
+      # The worksheet specifies the working directory is "Worksheet5" [cite: 366]
+      - name: Run Doxygen
+        working-directory: ${{github.workspace}}/Worksheet5
+        run: doxygen
 
-#This is a predefined action that checks out a copy of your code
-- name: Checkout
-uses: actions/checkout@v2
-
-- name: Install doxygen
-run: sudo apt-get instrall -y doxygen
-
-#Run Doxygen on Worksheet5 folder
--name: Run Doxygen
-working-directory: ${{github.workspace}}/Worksheet5
-run: doxygen
-
-#Deploy html output from Doxygen to ghpages branches- name: Deploy
-- name: Deploy
-uses: JamesIves/github-pages-deploy-action@v4.2.5
-with:
-#The branch the action should deploy to.
-branch: gh-pages
-#The folder the action should deploy.
-folder: ${{github.workspace}}/Worksheet5/html
+      # Step 4: Deploy the HTML output
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@v4.2.5
+        with:
+          branch: gh-pages
+          # The worksheet specifies the folder is "Worksheet5/html" [cite: 377]
+          folder: ${{github.workspace}}/Worksheet5/html
