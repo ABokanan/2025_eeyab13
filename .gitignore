@@ -6,8 +6,8 @@
 * . o
 * . s o
 8 b uil d /
-# Created by https://www.toptal.com/developers/gitignore/api/cmake,visualstudio
-# Edit at https://www.toptal.com/developers/gitignore?templates=cmake,visualstudio
+# Created by https://www.toptal.com/developers/gitignore/api/visualstudio,doxygen,cmake
+# Edit at https://www.toptal.com/developers/gitignore?templates=visualstudio,doxygen,cmake
 
 ### CMake ###
 CMakeLists.txt.user
@@ -27,6 +27,10 @@ CMakeUserPresets.json
 
 # External projects
 *-prefix/
+
+### Doxygen ###
+html
+latex
 
 ### VisualStudio ###
 ## Ignore Visual Studio temporary files, build results, and
@@ -429,4 +433,4 @@ FodyWeavers.xsd
 ### VisualStudio Patch ###
 # Additional files built by Visual Studio
 
-# End of https://www.toptal.com/developers/gitignore/api/cmake,visualstudio
+# End of https://www.toptal.com/developers/gitignore/api/visualstudio,doxygen,cmake
