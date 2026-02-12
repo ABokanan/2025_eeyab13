@@ -53,8 +53,10 @@ events:
         - "C:\\WINDOWS\\System32\\OpenSSH\\"
         - "C:\\Program Files\\MATLAB\\R2025b\\bin"
         - "C:\\Program Files\\Git\\cmd"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
         - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\ahmad\\2025_eeyab13\\worksheet4\\Calc\\build\\Debug\\Dynamic_Calc\\lib"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
         - "C:\\Users\\ahmad\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\ahmad\\AppData\\Local\\Programs\\Ollama"
   -
@@ -72,8 +74,8 @@ events:
       
       The output was:
       0
-      MSBuild version 18.0.5+e22287bf1 for .NET Framework
-      Build started 2/10/2026 4:14:17 PM.
+      MSBuild version 18.3.0-release-26070-10+3972042b7 for .NET Framework
+      Build started 2/12/2026 10:21:01 AM.
       
       Project "C:\\Users\\ahmad\\2025_eeyab13\\worksheet4\\Calc\\build\\CMakeFiles\\4.2.3\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
       PrepareForBuild:
@@ -102,7 +104,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:00.67
+      Time Elapsed 00:00:01.71
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -148,8 +150,9 @@ events:
       - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
       - "C:/Program Files/MATLAB/R2025b/bin/"
       - "C:/Program Files/Git/cmd/"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
       - "C:/Program Files/CMake/bin/"
+      - "C:/Users/ahmad/2025_eeyab13/worksheet4/Calc/build/Debug/Dynamic_Calc/lib/"
+      - "C:/Program Files/doxygen/bin/"
       - "C:/Users/ahmad/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/ahmad/AppData/Local/Programs/Ollama/"
     searched_directories:
@@ -175,8 +178,10 @@ events:
         - "C:\\WINDOWS\\System32\\OpenSSH\\"
         - "C:\\Program Files\\MATLAB\\R2025b\\bin"
         - "C:\\Program Files\\Git\\cmd"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
         - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\ahmad\\2025_eeyab13\\worksheet4\\Calc\\build\\Debug\\Dynamic_Calc\\lib"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
         - "C:\\Users\\ahmad\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\ahmad\\AppData\\Local\\Programs\\Ollama"
   -
@@ -215,8 +220,9 @@ events:
       - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
       - "C:/Program Files/MATLAB/R2025b/bin/"
       - "C:/Program Files/Git/cmd/"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
       - "C:/Program Files/CMake/bin/"
+      - "C:/Users/ahmad/2025_eeyab13/worksheet4/Calc/build/Debug/Dynamic_Calc/lib/"
+      - "C:/Program Files/doxygen/bin/"
       - "C:/Users/ahmad/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/ahmad/AppData/Local/Programs/Ollama/"
     searched_directories:
@@ -262,12 +268,15 @@ events:
       - "C:/Program Files/Git/cmd/lld-link.com"
       - "C:/Program Files/Git/cmd/lld-link.exe"
       - "C:/Program Files/Git/cmd/lld-link"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
       - "C:/Program Files/CMake/bin/lld-link.com"
       - "C:/Program Files/CMake/bin/lld-link.exe"
       - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/Users/ahmad/2025_eeyab13/worksheet4/Calc/build/Debug/Dynamic_Calc/lib/lld-link.com"
+      - "C:/Users/ahmad/2025_eeyab13/worksheet4/Calc/build/Debug/Dynamic_Calc/lib/lld-link.exe"
+      - "C:/Users/ahmad/2025_eeyab13/worksheet4/Calc/build/Debug/Dynamic_Calc/lib/lld-link"
+      - "C:/Program Files/doxygen/bin/lld-link.com"
+      - "C:/Program Files/doxygen/bin/lld-link.exe"
+      - "C:/Program Files/doxygen/bin/lld-link"
       - "C:/Users/ahmad/AppData/Local/Microsoft/WindowsApps/lld-link.com"
       - "C:/Users/ahmad/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
       - "C:/Users/ahmad/AppData/Local/Microsoft/WindowsApps/lld-link"
@@ -295,8 +304,10 @@ events:
         - "C:\\WINDOWS\\System32\\OpenSSH\\"
         - "C:\\Program Files\\MATLAB\\R2025b\\bin"
         - "C:\\Program Files\\Git\\cmd"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
         - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\ahmad\\2025_eeyab13\\worksheet4\\Calc\\build\\Debug\\Dynamic_Calc\\lib"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
         - "C:\\Users\\ahmad\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\ahmad\\AppData\\Local\\Programs\\Ollama"
   -
@@ -333,8 +344,9 @@ events:
       - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
       - "C:/Program Files/MATLAB/R2025b/bin/"
       - "C:/Program Files/Git/cmd/"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
       - "C:/Program Files/CMake/bin/"
+      - "C:/Users/ahmad/2025_eeyab13/worksheet4/Calc/build/Debug/Dynamic_Calc/lib/"
+      - "C:/Program Files/doxygen/bin/"
       - "C:/Users/ahmad/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/ahmad/AppData/Local/Programs/Ollama/"
     searched_directories:
@@ -360,8 +372,10 @@ events:
         - "C:\\WINDOWS\\System32\\OpenSSH\\"
         - "C:\\Program Files\\MATLAB\\R2025b\\bin"
         - "C:\\Program Files\\Git\\cmd"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
         - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\ahmad\\2025_eeyab13\\worksheet4\\Calc\\build\\Debug\\Dynamic_Calc\\lib"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
         - "C:\\Users\\ahmad\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\ahmad\\AppData\\Local\\Programs\\Ollama"
   -
@@ -398,8 +412,9 @@ events:
       - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
       - "C:/Program Files/MATLAB/R2025b/bin/"
       - "C:/Program Files/Git/cmd/"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
       - "C:/Program Files/CMake/bin/"
+      - "C:/Users/ahmad/2025_eeyab13/worksheet4/Calc/build/Debug/Dynamic_Calc/lib/"
+      - "C:/Program Files/doxygen/bin/"
       - "C:/Users/ahmad/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/ahmad/AppData/Local/Programs/Ollama/"
     searched_directories:
@@ -445,12 +460,15 @@ events:
       - "C:/Program Files/Git/cmd/mt.com"
       - "C:/Program Files/Git/cmd/mt.exe"
       - "C:/Program Files/Git/cmd/mt"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.com"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.exe"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt"
       - "C:/Program Files/CMake/bin/mt.com"
       - "C:/Program Files/CMake/bin/mt.exe"
       - "C:/Program Files/CMake/bin/mt"
+      - "C:/Users/ahmad/2025_eeyab13/worksheet4/Calc/build/Debug/Dynamic_Calc/lib/mt.com"
+      - "C:/Users/ahmad/2025_eeyab13/worksheet4/Calc/build/Debug/Dynamic_Calc/lib/mt.exe"
+      - "C:/Users/ahmad/2025_eeyab13/worksheet4/Calc/build/Debug/Dynamic_Calc/lib/mt"
+      - "C:/Program Files/doxygen/bin/mt.com"
+      - "C:/Program Files/doxygen/bin/mt.exe"
+      - "C:/Program Files/doxygen/bin/mt"
       - "C:/Users/ahmad/AppData/Local/Microsoft/WindowsApps/mt.com"
       - "C:/Users/ahmad/AppData/Local/Microsoft/WindowsApps/mt.exe"
       - "C:/Users/ahmad/AppData/Local/Microsoft/WindowsApps/mt"
@@ -478,8 +496,10 @@ events:
         - "C:\\WINDOWS\\System32\\OpenSSH\\"
         - "C:\\Program Files\\MATLAB\\R2025b\\bin"
         - "C:\\Program Files\\Git\\cmd"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
         - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\ahmad\\2025_eeyab13\\worksheet4\\Calc\\build\\Debug\\Dynamic_Calc\\lib"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
         - "C:\\Users\\ahmad\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\ahmad\\AppData\\Local\\Programs\\Ollama"
   -
@@ -516,8 +536,9 @@ events:
       - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
       - "C:/Program Files/MATLAB/R2025b/bin/"
       - "C:/Program Files/Git/cmd/"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
       - "C:/Program Files/CMake/bin/"
+      - "C:/Users/ahmad/2025_eeyab13/worksheet4/Calc/build/Debug/Dynamic_Calc/lib/"
+      - "C:/Program Files/doxygen/bin/"
       - "C:/Users/ahmad/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/ahmad/AppData/Local/Programs/Ollama/"
     searched_directories:
@@ -543,8 +564,10 @@ events:
         - "C:\\WINDOWS\\System32\\OpenSSH\\"
         - "C:\\Program Files\\MATLAB\\R2025b\\bin"
         - "C:\\Program Files\\Git\\cmd"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
         - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\ahmad\\2025_eeyab13\\worksheet4\\Calc\\build\\Debug\\Dynamic_Calc\\lib"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
         - "C:\\Users\\ahmad\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\ahmad\\AppData\\Local\\Programs\\Ollama"
   -
@@ -592,8 +615,10 @@ events:
         - "C:\\WINDOWS\\System32\\OpenSSH\\"
         - "C:\\Program Files\\MATLAB\\R2025b\\bin"
         - "C:\\Program Files\\Git\\cmd"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
         - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\ahmad\\2025_eeyab13\\worksheet4\\Calc\\build\\Debug\\Dynamic_Calc\\lib"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
         - "C:\\Users\\ahmad\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\ahmad\\AppData\\Local\\Programs\\Ollama"
   -
@@ -611,8 +636,8 @@ events:
       
       The output was:
       0
-      MSBuild version 18.0.5+e22287bf1 for .NET Framework
-      Build started 2/10/2026 4:14:18 PM.
+      MSBuild version 18.3.0-release-26070-10+3972042b7 for .NET Framework
+      Build started 2/12/2026 10:21:03 AM.
       
       Project "C:\\Users\\ahmad\\2025_eeyab13\\worksheet4\\Calc\\build\\CMakeFiles\\4.2.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
       PrepareForBuild:
@@ -641,7 +666,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:00.48
+      Time Elapsed 00:00:01.65
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -687,8 +712,9 @@ events:
       - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
       - "C:/Program Files/MATLAB/R2025b/bin/"
       - "C:/Program Files/Git/cmd/"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
       - "C:/Program Files/CMake/bin/"
+      - "C:/Users/ahmad/2025_eeyab13/worksheet4/Calc/build/Debug/Dynamic_Calc/lib/"
+      - "C:/Program Files/doxygen/bin/"
       - "C:/Users/ahmad/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/ahmad/AppData/Local/Programs/Ollama/"
     searched_directories:
@@ -734,12 +760,15 @@ events:
       - "C:/Program Files/Git/cmd/lld-link.com"
       - "C:/Program Files/Git/cmd/lld-link.exe"
       - "C:/Program Files/Git/cmd/lld-link"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
       - "C:/Program Files/CMake/bin/lld-link.com"
       - "C:/Program Files/CMake/bin/lld-link.exe"
       - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/Users/ahmad/2025_eeyab13/worksheet4/Calc/build/Debug/Dynamic_Calc/lib/lld-link.com"
+      - "C:/Users/ahmad/2025_eeyab13/worksheet4/Calc/build/Debug/Dynamic_Calc/lib/lld-link.exe"
+      - "C:/Users/ahmad/2025_eeyab13/worksheet4/Calc/build/Debug/Dynamic_Calc/lib/lld-link"
+      - "C:/Program Files/doxygen/bin/lld-link.com"
+      - "C:/Program Files/doxygen/bin/lld-link.exe"
+      - "C:/Program Files/doxygen/bin/lld-link"
       - "C:/Users/ahmad/AppData/Local/Microsoft/WindowsApps/lld-link.com"
       - "C:/Users/ahmad/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
       - "C:/Users/ahmad/AppData/Local/Microsoft/WindowsApps/lld-link"
@@ -767,8 +796,10 @@ events:
         - "C:\\WINDOWS\\System32\\OpenSSH\\"
         - "C:\\Program Files\\MATLAB\\R2025b\\bin"
         - "C:\\Program Files\\Git\\cmd"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
         - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\ahmad\\2025_eeyab13\\worksheet4\\Calc\\build\\Debug\\Dynamic_Calc\\lib"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
         - "C:\\Users\\ahmad\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\ahmad\\AppData\\Local\\Programs\\Ollama"
   -
@@ -807,8 +838,9 @@ events:
       - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
       - "C:/Program Files/MATLAB/R2025b/bin/"
       - "C:/Program Files/Git/cmd/"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
       - "C:/Program Files/CMake/bin/"
+      - "C:/Users/ahmad/2025_eeyab13/worksheet4/Calc/build/Debug/Dynamic_Calc/lib/"
+      - "C:/Program Files/doxygen/bin/"
       - "C:/Users/ahmad/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/ahmad/AppData/Local/Programs/Ollama/"
       - "C:/Program Files/bin/"
@@ -863,12 +895,15 @@ events:
       - "C:/Program Files/Git/cmd/rc.com"
       - "C:/Program Files/Git/cmd/rc.exe"
       - "C:/Program Files/Git/cmd/rc"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.com"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.exe"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc"
       - "C:/Program Files/CMake/bin/rc.com"
       - "C:/Program Files/CMake/bin/rc.exe"
       - "C:/Program Files/CMake/bin/rc"
+      - "C:/Users/ahmad/2025_eeyab13/worksheet4/Calc/build/Debug/Dynamic_Calc/lib/rc.com"
+      - "C:/Users/ahmad/2025_eeyab13/worksheet4/Calc/build/Debug/Dynamic_Calc/lib/rc.exe"
+      - "C:/Users/ahmad/2025_eeyab13/worksheet4/Calc/build/Debug/Dynamic_Calc/lib/rc"
+      - "C:/Program Files/doxygen/bin/rc.com"
+      - "C:/Program Files/doxygen/bin/rc.exe"
+      - "C:/Program Files/doxygen/bin/rc"
       - "C:/Users/ahmad/AppData/Local/Microsoft/WindowsApps/rc.com"
       - "C:/Users/ahmad/AppData/Local/Microsoft/WindowsApps/rc.exe"
       - "C:/Users/ahmad/AppData/Local/Microsoft/WindowsApps/rc"
@@ -932,8 +967,10 @@ events:
         - "C:\\WINDOWS\\System32\\OpenSSH\\"
         - "C:\\Program Files\\MATLAB\\R2025b\\bin"
         - "C:\\Program Files\\Git\\cmd"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
         - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\ahmad\\2025_eeyab13\\worksheet4\\Calc\\build\\Debug\\Dynamic_Calc\\lib"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
         - "C:\\Users\\ahmad\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\ahmad\\AppData\\Local\\Programs\\Ollama"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/calc"
@@ -951,8 +988,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/ahmad/2025_eeyab13/worksheet4/Calc/build/CMakeFiles/CMakeScratch/TryCompile-gngp3v"
-      binary: "C:/Users/ahmad/2025_eeyab13/worksheet4/Calc/build/CMakeFiles/CMakeScratch/TryCompile-gngp3v"
+      source: "C:/Users/ahmad/2025_eeyab13/worksheet4/Calc/build/CMakeFiles/CMakeScratch/TryCompile-th7ffv"
+      binary: "C:/Users/ahmad/2025_eeyab13/worksheet4/Calc/build/CMakeFiles/CMakeScratch/TryCompile-th7ffv"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -961,39 +998,39 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/ahmad/2025_eeyab13/worksheet4/Calc/build/CMakeFiles/CMakeScratch/TryCompile-gngp3v'
+        Change Dir: 'C:/Users/ahmad/2025_eeyab13/worksheet4/Calc/build/CMakeFiles/CMakeScratch/TryCompile-th7ffv'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_feade.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
-        MSBuild version 18.0.5+e22287bf1 for .NET Framework
-        Build started 2/10/2026 4:14:19 PM.
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_ac8da.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        MSBuild version 18.3.0-release-26070-10+3972042b7 for .NET Framework
+        Build started 2/12/2026 10:21:06 AM.
         
-        Project "C:\\Users\\ahmad\\2025_eeyab13\\worksheet4\\Calc\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gngp3v\\cmTC_feade.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\ahmad\\2025_eeyab13\\worksheet4\\Calc\\build\\CMakeFiles\\CMakeScratch\\TryCompile-th7ffv\\cmTC_ac8da.vcxproj" on node 1 (default targets).
         PrepareForBuild:
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\ahmad\\2025_eeyab13\\worksheet4\\Calc\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gngp3v\\Debug\\".
-          Creating directory "cmTC_feade.dir\\Debug\\cmTC_feade.tlog\\".
+          Creating directory "C:\\Users\\ahmad\\2025_eeyab13\\worksheet4\\Calc\\build\\CMakeFiles\\CMakeScratch\\TryCompile-th7ffv\\Debug\\".
+          Creating directory "cmTC_ac8da.dir\\Debug\\cmTC_ac8da.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_feade.dir\\Debug\\cmTC_feade.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_feade.dir\\Debug\\cmTC_feade.tlog\\unsuccessfulbuild".
+          Creating "cmTC_ac8da.dir\\Debug\\cmTC_ac8da.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_ac8da.dir\\Debug\\cmTC_ac8da.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_feade.dir\\Debug\\\\" /Fd"cmTC_feade.dir\\Debug\\vc145.pdb" /external:W3 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
-          Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35723 for x64
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_ac8da.dir\\Debug\\\\" /Fd"cmTC_ac8da.dir\\Debug\\vc145.pdb" /external:W3 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35724 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_feade.dir\\Debug\\\\" /Fd"cmTC_feade.dir\\Debug\\vc145.pdb" /external:W3 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_ac8da.dir\\Debug\\\\" /Fd"cmTC_ac8da.dir\\Debug\\vc145.pdb" /external:W3 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
           CMakeCCompilerABI.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\ahmad\\2025_eeyab13\\worksheet4\\Calc\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gngp3v\\Debug\\cmTC_feade.exe" /INCREMENTAL /ILK:"cmTC_feade.dir\\Debug\\cmTC_feade.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/ahmad/2025_eeyab13/worksheet4/Calc/build/CMakeFiles/CMakeScratch/TryCompile-gngp3v/Debug/cmTC_feade.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/ahmad/2025_eeyab13/worksheet4/Calc/build/CMakeFiles/CMakeScratch/TryCompile-gngp3v/Debug/cmTC_feade.lib" /MACHINE:X64  /machine:x64 cmTC_feade.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_feade.vcxproj -> C:\\Users\\ahmad\\2025_eeyab13\\worksheet4\\Calc\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gngp3v\\Debug\\cmTC_feade.exe
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\ahmad\\2025_eeyab13\\worksheet4\\Calc\\build\\CMakeFiles\\CMakeScratch\\TryCompile-th7ffv\\Debug\\cmTC_ac8da.exe" /INCREMENTAL /ILK:"cmTC_ac8da.dir\\Debug\\cmTC_ac8da.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/ahmad/2025_eeyab13/worksheet4/Calc/build/CMakeFiles/CMakeScratch/TryCompile-th7ffv/Debug/cmTC_ac8da.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/ahmad/2025_eeyab13/worksheet4/Calc/build/CMakeFiles/CMakeScratch/TryCompile-th7ffv/Debug/cmTC_ac8da.lib" /MACHINE:X64  /machine:x64 cmTC_ac8da.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_ac8da.vcxproj -> C:\\Users\\ahmad\\2025_eeyab13\\worksheet4\\Calc\\build\\CMakeFiles\\CMakeScratch\\TryCompile-th7ffv\\Debug\\cmTC_ac8da.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_feade.dir\\Debug\\cmTC_feade.tlog\\unsuccessfulbuild".
-          Touching "cmTC_feade.dir\\Debug\\cmTC_feade.tlog\\cmTC_feade.lastbuildstate".
-        Done Building Project "C:\\Users\\ahmad\\2025_eeyab13\\worksheet4\\Calc\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gngp3v\\cmTC_feade.vcxproj" (default targets).
+          Deleting file "cmTC_ac8da.dir\\Debug\\cmTC_ac8da.tlog\\unsuccessfulbuild".
+          Touching "cmTC_ac8da.dir\\Debug\\cmTC_ac8da.tlog\\cmTC_ac8da.lastbuildstate".
+        Done Building Project "C:\\Users\\ahmad\\2025_eeyab13\\worksheet4\\Calc\\build\\CMakeFiles\\CMakeScratch\\TryCompile-th7ffv\\cmTC_ac8da.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.45
+        Time Elapsed 00:00:01.35
         
       exitCode: 0
   -
@@ -1022,7 +1059,7 @@ events:
       - "CMakeLists.txt:4 (project)"
     message: |
       Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/HostX64/x64/link.exe" "-v"
-      Microsoft (R) Incremental Linker Version 14.50.35723.0
+      Microsoft (R) Incremental Linker Version 14.50.35724.0
       Copyright (C) Microsoft Corporation.  All rights reserved.
   -
     kind: "try_compile-v1"
@@ -1033,8 +1070,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/ahmad/2025_eeyab13/worksheet4/Calc/build/CMakeFiles/CMakeScratch/TryCompile-i06oqi"
-      binary: "C:/Users/ahmad/2025_eeyab13/worksheet4/Calc/build/CMakeFiles/CMakeScratch/TryCompile-i06oqi"
+      source: "C:/Users/ahmad/2025_eeyab13/worksheet4/Calc/build/CMakeFiles/CMakeScratch/TryCompile-xf71sa"
+      binary: "C:/Users/ahmad/2025_eeyab13/worksheet4/Calc/build/CMakeFiles/CMakeScratch/TryCompile-xf71sa"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -1044,39 +1081,39 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/ahmad/2025_eeyab13/worksheet4/Calc/build/CMakeFiles/CMakeScratch/TryCompile-i06oqi'
+        Change Dir: 'C:/Users/ahmad/2025_eeyab13/worksheet4/Calc/build/CMakeFiles/CMakeScratch/TryCompile-xf71sa'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_ea1e0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
-        MSBuild version 18.0.5+e22287bf1 for .NET Framework
-        Build started 2/10/2026 4:14:20 PM.
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_90dee.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        MSBuild version 18.3.0-release-26070-10+3972042b7 for .NET Framework
+        Build started 2/12/2026 10:21:08 AM.
         
-        Project "C:\\Users\\ahmad\\2025_eeyab13\\worksheet4\\Calc\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i06oqi\\cmTC_ea1e0.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\ahmad\\2025_eeyab13\\worksheet4\\Calc\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xf71sa\\cmTC_90dee.vcxproj" on node 1 (default targets).
         PrepareForBuild:
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\ahmad\\2025_eeyab13\\worksheet4\\Calc\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i06oqi\\Debug\\".
-          Creating directory "cmTC_ea1e0.dir\\Debug\\cmTC_ea1e0.tlog\\".
+          Creating directory "C:\\Users\\ahmad\\2025_eeyab13\\worksheet4\\Calc\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xf71sa\\Debug\\".
+          Creating directory "cmTC_90dee.dir\\Debug\\cmTC_90dee.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_ea1e0.dir\\Debug\\cmTC_ea1e0.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_ea1e0.dir\\Debug\\cmTC_ea1e0.tlog\\unsuccessfulbuild".
+          Creating "cmTC_90dee.dir\\Debug\\cmTC_90dee.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_90dee.dir\\Debug\\cmTC_90dee.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_ea1e0.dir\\Debug\\\\" /Fd"cmTC_ea1e0.dir\\Debug\\vc145.pdb" /external:W3 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
-          Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35723 for x64
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_90dee.dir\\Debug\\\\" /Fd"cmTC_90dee.dir\\Debug\\vc145.pdb" /external:W3 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35724 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_ea1e0.dir\\Debug\\\\" /Fd"cmTC_ea1e0.dir\\Debug\\vc145.pdb" /external:W3 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_90dee.dir\\Debug\\\\" /Fd"cmTC_90dee.dir\\Debug\\vc145.pdb" /external:W3 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\ahmad\\2025_eeyab13\\worksheet4\\Calc\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i06oqi\\Debug\\cmTC_ea1e0.exe" /INCREMENTAL /ILK:"cmTC_ea1e0.dir\\Debug\\cmTC_ea1e0.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/ahmad/2025_eeyab13/worksheet4/Calc/build/CMakeFiles/CMakeScratch/TryCompile-i06oqi/Debug/cmTC_ea1e0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/ahmad/2025_eeyab13/worksheet4/Calc/build/CMakeFiles/CMakeScratch/TryCompile-i06oqi/Debug/cmTC_ea1e0.lib" /MACHINE:X64  /machine:x64 cmTC_ea1e0.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_ea1e0.vcxproj -> C:\\Users\\ahmad\\2025_eeyab13\\worksheet4\\Calc\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i06oqi\\Debug\\cmTC_ea1e0.exe
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\ahmad\\2025_eeyab13\\worksheet4\\Calc\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xf71sa\\Debug\\cmTC_90dee.exe" /INCREMENTAL /ILK:"cmTC_90dee.dir\\Debug\\cmTC_90dee.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/ahmad/2025_eeyab13/worksheet4/Calc/build/CMakeFiles/CMakeScratch/TryCompile-xf71sa/Debug/cmTC_90dee.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/ahmad/2025_eeyab13/worksheet4/Calc/build/CMakeFiles/CMakeScratch/TryCompile-xf71sa/Debug/cmTC_90dee.lib" /MACHINE:X64  /machine:x64 cmTC_90dee.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_90dee.vcxproj -> C:\\Users\\ahmad\\2025_eeyab13\\worksheet4\\Calc\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xf71sa\\Debug\\cmTC_90dee.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_ea1e0.dir\\Debug\\cmTC_ea1e0.tlog\\unsuccessfulbuild".
-          Touching "cmTC_ea1e0.dir\\Debug\\cmTC_ea1e0.tlog\\cmTC_ea1e0.lastbuildstate".
-        Done Building Project "C:\\Users\\ahmad\\2025_eeyab13\\worksheet4\\Calc\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i06oqi\\cmTC_ea1e0.vcxproj" (default targets).
+          Deleting file "cmTC_90dee.dir\\Debug\\cmTC_90dee.tlog\\unsuccessfulbuild".
+          Touching "cmTC_90dee.dir\\Debug\\cmTC_90dee.tlog\\cmTC_90dee.lastbuildstate".
+        Done Building Project "C:\\Users\\ahmad\\2025_eeyab13\\worksheet4\\Calc\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xf71sa\\cmTC_90dee.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.46
+        Time Elapsed 00:00:00.58
         
       exitCode: 0
   -
@@ -1105,6 +1142,6 @@ events:
       - "CMakeLists.txt:4 (project)"
     message: |
       Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/HostX64/x64/link.exe" "-v"
-      Microsoft (R) Incremental Linker Version 14.50.35723.0
+      Microsoft (R) Incremental Linker Version 14.50.35724.0
       Copyright (C) Microsoft Corporation.  All rights reserved.
 ...
