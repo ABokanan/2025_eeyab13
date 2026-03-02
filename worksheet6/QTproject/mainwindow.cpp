@@ -8,25 +8,81 @@ MainWindow::MainWindow(QWidget *parent)
 {
     ui->setupUi(this);
 	
-	connect ( ui-pushButton, &QPushButton::released, this, &MainWindow::handleButton );
-	connect ( ui-pushButton2, &QPushButton::released, this, &MainWindow::handleButton2 );
+	connect (this, &MainWindow::statusUpdateMessage, ui->statusbar, &QStatusBar::showMessage);	
+	connect ( ui->pushButton, &QPushButton::released, this, &MainWindow::handleButton );
+    connect ( ui->pushButton_2, &QPushButton::released, this, &MainWindow::handleButton1 );
+    connect ( ui->treeView, &QTreeView::clicked, this, &MainWindow::handleTreeClicked );
+
+	//-------------------------------------------------
+	    // 1. Create/allocate the ModelList
+    this->partList = new ModelPartList("PartsList");
+
+    // 2. Link it to the treeview in the GUI
+    ui->treeView->setModel(this->partList);
+
+    // 3. Manually create a model tree
+    ModelPart* rootItem = this->partList->getRootItem();
+
+    // Add 3 top-level items
+    for (int i = 0; i < 3; i++) {
+        // Create strings for both data columns
+        QString name = QString("TopLevel %1").arg(i);
+        QString visible("true");
+
+        // Create child item
+        ModelPart* childItem = new ModelPart({name, visible});
+
+        // Append to tree top-level
+        rootItem->appendChild(childItem);
+
+        // Add 5 sub-items
+        for (int j = 0; j < 5; j++) {
+            QString subName = QString("Item %1,%2").arg(i).arg(j);
+            QString subVisible("true");
+            
+            ModelPart* childChildItem = new ModelPart({subName, subVisible});
+            
+            // Append to parent
+            childItem->appendChild(childChildItem);
+        }
+    }
 }
 
 MainWindow::~MainWindow()
 {
+	
     delete ui;
+	
 }
 
-void Main Window::handlebutton() 
-{
-	QMessageBox msgBox;
-	msgBox.setText("Button Was Clicked.");
-	msgBox.exec();
+void MainWindow::on_actionOpen_File_triggered() {
+
+    //add this line of code so you can see if the action is working.
+    emit statusUpdateMessage(QString("Open File action triggered"),0);
 }
 
-void Main Window::handlebutton2() 
+void MainWindow::handleButton() 
 {
-	QMessageBox msgBox;
-	msgBox.setText("Button 2 Was Clicked.");
-	msgBox.exec();
+    emit statusUpdateMessage(QString("Button 1 was clicked"), 0);
+}
+
+
+void MainWindow::handleButton1() 
+{
+    emit statusUpdateMessage(QString("Button 2 was clicked"), 0);
+}
+    
+
+void MainWindow::handleTreeClicked()
+{
+	/* Get the index of the selected item */
+	QModelIndex index = ui->treeView->currentIndex();
+	
+	/* Get a pointer to the item from the index */
+	ModelPart *selectedPart = static_cast<ModelPart*>(index.internalPointer());
+	
+	/* In this case, we will retrieve the name string from the internal QVariant data array */
+	QString text = selectedPart->data(0).toString();
+	
+	emit statusUpdateMessage(QString("The selected item is: ")+text, 0);
 }
