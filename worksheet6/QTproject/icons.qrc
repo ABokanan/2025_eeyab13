@@ -1,6 +1,7 @@
 <RCC>
     <qresource prefix="/Icons"/>
-    <qresource prefix="/icon">
+    <qresource lang="English" prefix="/Icons"/>
+    <qresource prefix="/">
         <file>Help.png</file>
         <file>OpenFile.png</file>
         <file>Print.png</file>
@@ -8,5 +9,4 @@
         <file>StartVR.png</file>
         <file>StopVR.png</file>
     </qresource>
-    <qresource lang="English" prefix="/Icons"/>
 </RCC>
