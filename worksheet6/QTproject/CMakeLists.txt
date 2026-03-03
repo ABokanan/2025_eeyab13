@@ -16,7 +16,9 @@ qt_add_executable(QTproject
     ModelPartList.cpp
     ModelPartList.h
     icons.qrc
-    optiondialog.h optiondialog.cpp optiondialog.ui
+    optiondialog.h
+    optiondialog.cpp
+    optiondialog.ui
 
 )
 
