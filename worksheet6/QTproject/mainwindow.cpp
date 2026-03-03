@@ -16,6 +16,8 @@ MainWindow::MainWindow(QWidget *parent)
     connect ( ui->treeView, &QTreeView::clicked, this, &MainWindow::handleTreeClicked );
 
 	//-------------------------------------------------
+
+
 	    // 1. Create/allocate the ModelList
     this->partList = new ModelPartList("PartsList");
 
@@ -32,7 +34,7 @@ MainWindow::MainWindow(QWidget *parent)
         QString visible("true");
 
         // Create child item
-        ModelPart* childItem = new ModelPart({name, visible});
+        ModelPart* childItem = new ModelPart({name, visible, 255, 255, 255});
 
         // Append to tree top-level
         rootItem->appendChild(childItem);
@@ -42,11 +44,41 @@ MainWindow::MainWindow(QWidget *parent)
             QString subName = QString("Item %1,%2").arg(i).arg(j);
             QString subVisible("true");
             
-            ModelPart* childChildItem = new ModelPart({subName, subVisible});
+            ModelPart* childChildItem = new ModelPart({subName, subVisible, 255, 255, 255});
             
             // Append to parent
             childItem->appendChild(childChildItem);
         }
+    }
+}
+
+void MainWindow::on_actionItem_Options_triggered()
+{
+    ui->treeView->addAction(ui->actionItem_Options);
+    // 1. Figure out which item the user has selected in the tree view (from Exercise 5)
+    QModelIndex index = ui->treeView->currentIndex();
+    ModelPart *selectedPart = static_cast<ModelPart*>(index.internalPointer());
+
+    // 2. Create the dialog
+    OptionDialog dialog(this);
+
+    // 3. Populate the dialog with the part's current details BEFORE showing it
+    // 4. Show the dialog
+    if (dialog.exec() == QDialog::Accepted) {
+        // 5. Save the changes from the UI back to the part
+        dialog.updatePartFromDialog(selectedPart);
+
+        // --- NEW CODE: Get the updated name and show it in the status bar ---
+
+        // Read the new name back out of the part (column 0)
+        QString updatedName = selectedPart->data(0).toString();
+
+        // Combine your text with the new name
+        emit statusUpdateMessage(QString("Dialog Accepted: ") + updatedName, 0);
+
+        // --------------------------------------------------------------------
+    } else {
+        emit statusUpdateMessage(QString("Dialog Rejected!!!"), 0);
     }
 }
 
@@ -92,8 +124,8 @@ void MainWindow::handleButton1()
     // 2. Create the dialog
     OptionDialog dialog(this);
 
-    // 3. Populate the dialog with the part's current details BEFORE showing it
-    // 4. Show the dialog
+    dialog.updateDialogFromPart(selectedPart);
+
     if (dialog.exec() == QDialog::Accepted) {
         // 5. Save the changes from the UI back to the part
         dialog.updatePartFromDialog(selectedPart);
@@ -127,33 +159,5 @@ void MainWindow::handleTreeClicked()
 	emit statusUpdateMessage(QString("The selected item is: ")+text, 0);
 }
 
-void MainWindow::on_actionItem_Options_triggered()
-{
-    ui->treeView->addAction(ui->actionItem_Options);
-    // 1. Figure out which item the user has selected in the tree view (from Exercise 5)
-    QModelIndex index = ui->treeView->currentIndex();
-    ModelPart *selectedPart = static_cast<ModelPart*>(index.internalPointer());
 
-    // 2. Create the dialog
-    OptionDialog dialog(this);
-
-    // 3. Populate the dialog with the part's current details BEFORE showing it
-    // 4. Show the dialog
-    if (dialog.exec() == QDialog::Accepted) {
-        // 5. Save the changes from the UI back to the part
-        dialog.updatePartFromDialog(selectedPart);
-
-        // --- NEW CODE: Get the updated name and show it in the status bar ---
-
-        // Read the new name back out of the part (column 0)
-        QString updatedName = selectedPart->data(0).toString();
-
-        // Combine your text with the new name
-        emit statusUpdateMessage(QString("Dialog Accepted: ") + updatedName, 0);
-
-        // --------------------------------------------------------------------
-    } else {
-        emit statusUpdateMessage(QString("Dialog Rejected!!!"), 0);
-    }
-}
 
