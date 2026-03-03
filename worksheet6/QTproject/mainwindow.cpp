@@ -58,16 +58,23 @@ MainWindow::~MainWindow()
 }
 
 void MainWindow::on_actionOpen_File_triggered() {
-	
-	QString fileName = QFileDialog::getOpenFileName(
-	this,
-	tr("Open File"),
-	"C:\\",
-	tr("STL Files (*.stl);;Text Files (*.txt)")
-	);
 
-    //add this line of code so you can see if the action is working.
-    emit statusUpdateMessage(QString("Open File action triggered ")+ fileName, 0);
+    QString fileName = QFileDialog::getOpenFileName(this, tr("Open File"), "C:\\", tr("STL Files (*.stl);;Text Files (*.txt)"));
+
+    // If the user didn't cancel the file dialog
+    if (!fileName.isEmpty()) {
+        // Find the currently selected item in the tree
+        QModelIndex index = ui->treeView->currentIndex();
+
+        if (index.isValid()) {
+            ModelPart *selectedPart = static_cast<ModelPart*>(index.internalPointer());
+
+            // Assuming column 0 is the Name, update it to the file name!
+            selectedPart->set(0, fileName);
+
+            emit statusUpdateMessage(QString("Item renamed to file: ") + fileName, 0);
+        }
+    }
 }
 
 void MainWindow::handleButton() 
@@ -123,5 +130,30 @@ void MainWindow::handleTreeClicked()
 void MainWindow::on_actionItem_Options_triggered()
 {
     ui->treeView->addAction(ui->actionItem_Options);
+    // 1. Figure out which item the user has selected in the tree view (from Exercise 5)
+    QModelIndex index = ui->treeView->currentIndex();
+    ModelPart *selectedPart = static_cast<ModelPart*>(index.internalPointer());
+
+    // 2. Create the dialog
+    OptionDialog dialog(this);
+
+    // 3. Populate the dialog with the part's current details BEFORE showing it
+    // 4. Show the dialog
+    if (dialog.exec() == QDialog::Accepted) {
+        // 5. Save the changes from the UI back to the part
+        dialog.updatePartFromDialog(selectedPart);
+
+        // --- NEW CODE: Get the updated name and show it in the status bar ---
+
+        // Read the new name back out of the part (column 0)
+        QString updatedName = selectedPart->data(0).toString();
+
+        // Combine your text with the new name
+        emit statusUpdateMessage(QString("Dialog Accepted: ") + updatedName, 0);
+
+        // --------------------------------------------------------------------
+    } else {
+        emit statusUpdateMessage(QString("Dialog Rejected!!!"), 0);
+    }
 }
 

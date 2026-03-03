@@ -89,7 +89,14 @@
   <action name="actionOpen_File">
    <property name="icon">
     <iconset resource="icons.qrc">
-     <normaloff>:/iconss/OpenFile.png</normaloff>:/iconss/OpenFile.png</iconset>
+     <normaloff>:/iconss/OpenFile.png</normaloff>
+     <normalon>:/iconss/OpenFile.png</normalon>
+     <disabledoff>:/iconss/OpenFile.png</disabledoff>
+     <disabledon>:/iconss/OpenFile.png</disabledon>
+     <activeoff>:/iconss/OpenFile.png</activeoff>
+     <activeon>:/iconss/OpenFile.png</activeon>
+     <selectedoff>:/iconss/OpenFile.png</selectedoff>
+     <selectedon>:/iconss/OpenFile.png</selectedon>:/iconss/OpenFile.png</iconset>
    </property>
    <property name="text">
     <string>Open File</string>
