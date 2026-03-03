@@ -25,6 +25,9 @@
           <verstretch>0</verstretch>
          </sizepolicy>
         </property>
+        <property name="contextMenuPolicy">
+         <enum>Qt::ContextMenuPolicy::ActionsContextMenu</enum>
+        </property>
        </widget>
       </item>
       <item>
@@ -81,14 +84,23 @@
     <bool>false</bool>
    </attribute>
    <addaction name="actionOpen_File"/>
+   <addaction name="actionItem_Options"/>
   </widget>
   <action name="actionOpen_File">
    <property name="icon">
     <iconset resource="icons.qrc">
-     <normaloff>:/OpenFile.png</normaloff>:/OpenFile.png</iconset>
+     <normaloff>:/iconss/OpenFile.png</normaloff>:/iconss/OpenFile.png</iconset>
    </property>
    <property name="text">
     <string>Open File</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::MenuRole::NoRole</enum>
+   </property>
+  </action>
+  <action name="actionItem_Options">
+   <property name="text">
+    <string>Item Options</string>
    </property>
    <property name="menuRole">
     <enum>QAction::MenuRole::NoRole</enum>

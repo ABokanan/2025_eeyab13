@@ -97,11 +97,11 @@ void MainWindow::handleButton1()
         QString updatedName = selectedPart->data(0).toString();
 
         // Combine your text with the new name
-        emit statusUpdateMessage(QString("Part updated: ") + updatedName, 0);
+        emit statusUpdateMessage(QString("Dialog Accepted: ") + updatedName, 0);
 
         // --------------------------------------------------------------------
     } else {
-        emit statusUpdateMessage(QString("Edit cancelled"), 0);
+        emit statusUpdateMessage(QString("Dialog Rejected!!!"), 0);
     }
 }
 
@@ -119,3 +119,9 @@ void MainWindow::handleTreeClicked()
 	
 	emit statusUpdateMessage(QString("The selected item is: ")+text, 0);
 }
+
+void MainWindow::on_actionItem_Options_triggered()
+{
+    ui->treeView->addAction(ui->actionItem_Options);
+}
+

@@ -1,7 +1,7 @@
 <RCC>
     <qresource prefix="/Icons"/>
     <qresource lang="English" prefix="/Icons"/>
-    <qresource prefix="/">
+    <qresource prefix="/iconss">
         <file>Help.png</file>
         <file>OpenFile.png</file>
         <file>Print.png</file>
