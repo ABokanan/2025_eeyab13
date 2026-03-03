@@ -78,9 +78,15 @@ void MainWindow::handleButton()
 
 void MainWindow::handleButton1() 
 {
-    emit statusUpdateMessage(QString("Button 2 was clicked"), 0);
+    OptionDialog dialog(this);
+    if (dialog.exec() == QDialog::Accepted) {
+
+        emit statusUpdateMessage(QString("Dialog Accepted"),0);
+    }    else {
+        emit statusUpdateMessage(QString("Dialog Rejected"),0);
+    }
 }
-    
+
 
 void MainWindow::handleTreeClicked()
 {
