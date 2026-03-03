@@ -78,12 +78,23 @@ void MainWindow::handleButton()
 
 void MainWindow::handleButton1() 
 {
-    OptionDialog dialog(this);
-    if (dialog.exec() == QDialog::Accepted) {
+    // 1. Figure out which item the user has selected in the tree view (from Exercise 5)
+    QModelIndex index = ui->treeView->currentIndex();
+    ModelPart *selectedPart = static_cast<ModelPart*>(index.internalPointer());
 
-        emit statusUpdateMessage(QString("Dialog Accepted"),0);
-    }    else {
-        emit statusUpdateMessage(QString("Dialog Rejected"),0);
+    // 2. Create the dialog
+    OptionDialog dialog(this);
+
+    // 3. Populate the dialog with the part's current details BEFORE showing it
+    dialog.updateDialogFromPart(selectedPart);
+
+    // 4. Show the dialog
+    if (dialog.exec() == QDialog::Accepted) {
+        // 5. If they clicked OK, save the changes from the UI back to the part
+        dialog.updatePartFromDialog(selectedPart);
+        emit statusUpdateMessage(QString("Part updated!"), 0);
+    } else {
+        emit statusUpdateMessage(QString("Edit cancelled"), 0);
     }
 }
 
