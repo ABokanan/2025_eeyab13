@@ -86,13 +86,20 @@ void MainWindow::handleButton1()
     OptionDialog dialog(this);
 
     // 3. Populate the dialog with the part's current details BEFORE showing it
-    dialog.updateDialogFromPart(selectedPart);
-
     // 4. Show the dialog
     if (dialog.exec() == QDialog::Accepted) {
-        // 5. If they clicked OK, save the changes from the UI back to the part
+        // 5. Save the changes from the UI back to the part
         dialog.updatePartFromDialog(selectedPart);
-        emit statusUpdateMessage(QString("Part updated!"), 0);
+
+        // --- NEW CODE: Get the updated name and show it in the status bar ---
+
+        // Read the new name back out of the part (column 0)
+        QString updatedName = selectedPart->data(0).toString();
+
+        // Combine your text with the new name
+        emit statusUpdateMessage(QString("Part updated: ") + updatedName, 0);
+
+        // --------------------------------------------------------------------
     } else {
         emit statusUpdateMessage(QString("Edit cancelled"), 0);
     }
