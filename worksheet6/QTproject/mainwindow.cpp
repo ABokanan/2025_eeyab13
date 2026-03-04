@@ -62,6 +62,9 @@ void MainWindow::on_actionItem_Options_triggered()
     // 2. Create the dialog
     OptionDialog dialog(this);
 
+    dialog.updateDialogFromPart(selectedPart);
+
+
     // 3. Populate the dialog with the part's current details BEFORE showing it
     // 4. Show the dialog
     if (dialog.exec() == QDialog::Accepted) {
