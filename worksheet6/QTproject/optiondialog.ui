@@ -95,7 +95,11 @@
      <string>R</string>
     </property>
    </widget>
-   <widget class="QSpinBox" name="spinBoxR"/>
+   <widget class="QSpinBox" name="spinBoxR">
+    <property name="maximum">
+     <number>255</number>
+    </property>
+   </widget>
   </widget>
   <widget class="QSplitter" name="splitter_2">
    <property name="geometry">
@@ -114,7 +118,11 @@
      <string>G</string>
     </property>
    </widget>
-   <widget class="QSpinBox" name="spinBoxG"/>
+   <widget class="QSpinBox" name="spinBoxG">
+    <property name="maximum">
+     <number>255</number>
+    </property>
+   </widget>
   </widget>
   <widget class="QSplitter" name="splitter_3">
    <property name="geometry">
@@ -133,7 +141,11 @@
      <string>B</string>
     </property>
    </widget>
-   <widget class="QSpinBox" name="spinBoxB"/>
+   <widget class="QSpinBox" name="spinBoxB">
+    <property name="maximum">
+     <number>255</number>
+    </property>
+   </widget>
   </widget>
   <zorder>splitter</zorder>
   <zorder>splitter_2</zorder>
