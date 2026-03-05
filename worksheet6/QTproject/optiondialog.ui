@@ -135,23 +135,14 @@
    </widget>
    <widget class="QSpinBox" name="spinBoxB"/>
   </widget>
-  <zorder>label_3</zorder>
+  <zorder>splitter</zorder>
+  <zorder>splitter_2</zorder>
+  <zorder>splitter_3</zorder>
   <zorder>buttonBox</zorder>
   <zorder>lineEdit</zorder>
   <zorder>label</zorder>
-  <zorder>spinBoxR</zorder>
   <zorder>label_2</zorder>
-  <zorder>spinBoxG</zorder>
-  <zorder>spinBoxB</zorder>
-  <zorder>label_3</zorder>
-  <zorder>label_4</zorder>
-  <zorder>label_5</zorder>
   <zorder>checkBoxVisible</zorder>
-  <zorder>spinBoxR</zorder>
-  <zorder>spinBoxG</zorder>
-  <zorder>spinBoxB</zorder>
-  <zorder>label_4</zorder>
-  <zorder>label_5</zorder>
  </widget>
  <resources/>
  <connections>

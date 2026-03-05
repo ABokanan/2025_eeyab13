@@ -8,6 +8,10 @@
   */
 
 #include "ModelPart.h"
+#include <vtkSTLReader.h>
+#include <vtkPolyDataMapper.h>
+#include <vtkActor.h>
+#include <vtkProperty.h>
 
 
 /* Commented out for now, will be uncommented later when you have

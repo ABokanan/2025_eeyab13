@@ -21,11 +21,11 @@
  * commented out below - this is because you haven't yet installed
  * the VTK library which is needed.
  */
-//#include <vtkSmartPointer.h>
-//#include <vtkMapper.h>
-//#include <vtkActor.h>
-//#include <vtkSTLReader.h>
-//#include <vtkColor.h>
+#include <vtkSmartPointer.h>
+#include <vtkMapper.h>
+#include <vtkActor.h>
+#include <vtkSTLReader.h>
+#include <vtkColor.h>
 
 class ModelPart {
 public:

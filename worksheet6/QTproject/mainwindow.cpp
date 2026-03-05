@@ -3,12 +3,50 @@
 #include "optiondialog.h"
 #include <QMessageBox>
 #include <QFileDialog>
+#include <vtkNew.h>
+#include <vtkCylinderSource.h>
+#include <vtkPolyDataMapper.h>
+#include <vtkActor.h>
+#include <vtkProperty.h>
+#include <vtkCamera.h>
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+
+    // 1. Link a render window with the Qt widget
+    renderWindow = vtkSmartPointer<vtkGenericOpenGLRenderWindow>::New();
+        ui->vtkWidget->setRenderWindow(renderWindow); // Change 'widget' to 'vtkWidget' if you renamed it!
+
+    // 2. Add a renderer
+    renderer = vtkSmartPointer<vtkRenderer>::New();
+        renderWindow->AddRenderer(renderer);
+
+        // 3. Create the cylinder model
+        vtkNew<vtkCylinderSource> cylinder;
+        cylinder->SetResolution(8);
+
+        // 4. Create the mapper to push geometry into the graphics library
+        vtkNew<vtkPolyDataMapper> cylinderMapper;
+        cylinderMapper->SetInputConnection(cylinder->GetOutputPort());
+
+        // 5. Create the actor to group the geometry, properties, and transformation
+        vtkNew<vtkActor> cylinderActor;
+        cylinderActor->SetMapper(cylinderMapper);
+        cylinderActor->GetProperty()->SetColor(1.0, 0.0, 0.35); // Set color to a pinkish-red
+    cylinderActor->RotateX(30.0);
+        cylinderActor->RotateY(-45.0);
+
+        // 6. Add the actor to the renderer
+        renderer->AddActor(cylinderActor);
+
+        // 7. Reset the camera to frame the object
+        renderer->ResetCamera();
+        renderer->GetActiveCamera()->Azimuth(30);
+        renderer->GetActiveCamera()->Elevation(30);
+        renderer->ResetCameraClippingRange();
 	
 	connect (this, &MainWindow::statusUpdateMessage, ui->statusbar, &QStatusBar::showMessage);	
 	connect ( ui->pushButton, &QPushButton::released, this, &MainWindow::handleButton );
