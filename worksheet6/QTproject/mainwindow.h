@@ -21,6 +21,9 @@ class MainWindow : public QMainWindow
 public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
+    void updateRender();
+    void updateRenderFromTree(const QModelIndex& index);
+
 	
 public slots:
     void handleButton();
@@ -34,8 +37,8 @@ signals:
 
 private:
     Ui::MainWindow *ui;
-	ModelPartList* partList;
-
+    ModelPartList* partList;
+    // --- 3. The VTK variables MUST go here, BEFORE the closing brace! ---
     vtkSmartPointer<vtkRenderer> renderer;
     vtkSmartPointer<vtkGenericOpenGLRenderWindow> renderWindow;
 };

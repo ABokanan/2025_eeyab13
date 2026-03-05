@@ -17,8 +17,8 @@
 /* Commented out for now, will be uncommented later when you have
  * installed the VTK library
  */
-//#include <vtkSmartPointer.h>
-//#include <vtkDataSetMapper.h>
+#include <vtkSmartPointer.h>
+#include <vtkDataSetMapper.h>
 
 
 
@@ -142,24 +142,42 @@ bool ModelPart::visible() {
 }
 
 void ModelPart::loadSTL( QString fileName ) {
-    /* This is a placeholder function that you will need to modify if you want to use it */
-    
-    /* 1. Use the vtkSTLReader class to load the STL file 
-     *     https://vtk.org/doc/nightly/html/classvtkSTLReader.html
-     */
+    // Take the filename provided as an argument and create a vtkSTLReader [cite: 336]
+    this->file = vtkSmartPointer<vtkSTLReader>::New();
+    this->file->SetFileName(fileName.toStdString().c_str());
 
-    /* 2. Initialise the part's vtkMapper */
-    
-    /* 3. Initialise the part's vtkActor and link to the mapper */
+    this->file->Update();
+
+    // Create a mapper and link it to the STL reader [cite: 337]
+    vtkSmartPointer<vtkPolyDataMapper> polyMapper = vtkSmartPointer<vtkPolyDataMapper>::New();
+    polyMapper->SetInputConnection(this->file->GetOutputPort());
+    this->mapper = polyMapper;
+
+    // Create an actor and link it to the mapper [cite: 338]
+    this->actor = vtkSmartPointer<vtkActor>::New();
+    this->actor->SetMapper(this->mapper);
 }
 
-//vtkSmartPointer<vtkActor> ModelPart::getActor() {
-    /* This is a placeholder function that you will need to modify if you want to use it */
-    
-    /* Needs to return a smart pointer to the vtkActor to allow
-     * part to be rendered.
-     */
-//}
+vtkSmartPointer<vtkActor> ModelPart::getActor() {
+    // Return a smart pointer to the vtkActor to allow part to be rendered.
+    return this->actor;
+}
+
+vtkActor* ModelPart::getNewActor() {
+    // 1. Create new mapper
+    vtkSmartPointer<vtkPolyDataMapper> newMapper = vtkSmartPointer<vtkPolyDataMapper>::New();
+    newMapper->SetInputConnection(this->file->GetOutputPort());
+
+    // 2. Create new actor and link to mapper
+    vtkActor* newActor = vtkActor::New();
+    newActor->SetMapper(newMapper);
+
+    // 3. Link the vtkProperties of the original actor to the new actor.
+    newActor->SetProperty(this->actor->GetProperty());
+
+    // The new vtkActor pointer must be returned here
+    return newActor;
+}
 
 //vtkActor* ModelPart::getNewActor() {
     /* This is a placeholder function that you will need to modify if you want to use it
